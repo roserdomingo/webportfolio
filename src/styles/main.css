@@ -1,0 +1,45 @@
+h1 {
+  font-size: 18px;
+  vertical-align: bottom;
+  margin: 0;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 14px;
+}
+p {
+  font-size: 12px;
+  margin: 0;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color: grey;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    white-space: pre;
+  color: blue;
+}
+.downloadButton{
+  border: none;
+  background-color: #fff;
+}
+
+
+.about-body{
+  max-width: 576px;
+}
+
+
+
+
+
+
+
