@@ -9,13 +9,13 @@ import '../styles/project.css'
 
 
 import { Helmet } from 'react-helmet';
-import { MEDIA_SIZE } from '../models/project.enum';
+
 
 const Project = ({ projectId }) => {
 
   
   // DEJO AQUI LO DEL LIGHTBPOX POR AHORA CUIDADO
-  const [openLightbox, setOpenLightbox] = React.useState(false);
+ // const [openLightbox, setOpenLightbox] = React.useState(false);
 
   const project = pagesData.find((element) => element.id === projectId);
 

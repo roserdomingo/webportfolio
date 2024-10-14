@@ -3,7 +3,7 @@ import Caption from "./caption.jsx";
 import ExternalLink from "./externalLink.jsx";
 import HeaderInText from "./headerInText.jsx";
 import { Spotify } from "react-spotify-embed";
-import { MEDIA_TYPE, MEDIA_SIZE } from "../../models/project.enum";
+import { MEDIA_TYPE} from "../../models/project.enum";
 import Lightbox from "yet-another-react-lightbox";
 
 
