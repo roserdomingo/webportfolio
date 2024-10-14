@@ -3,7 +3,7 @@ import { SECTION, MEDIA_TYPE, MEDIA_SIZE } from './models/project.enum.js';
 
 /*VARIABLE PARA CAMBIAR LA WEB A LA VERSIÓN DE CADA UNO*/
 /*JORGE = 0 ROSER = 1 */
-export const pageId = 0
+export const pageId = 1
 
 export const pagesData = [
   //----------------------------------------------------------------------------------------------------------------
@@ -827,7 +827,8 @@ Installation created by Jorge Dabaliña and Roser Domingo. It was part of the ex
       },
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/interferencia/interferencia6.webp',
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/interferencia/interferencia.gif',
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
       {
