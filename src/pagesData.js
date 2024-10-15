@@ -1466,7 +1466,11 @@ The premiere and continuous screening will take place throughout October at the 
           },
         ]
       },
-      
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/argos/Argos7.webp',
+        alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
+      },
       {
         type: MEDIA_TYPE.YOUTUBE,
         src: 'RzHNzeDBbFU?si=bXkN8jSLpTuTrvqM',
@@ -1498,19 +1502,20 @@ The premiere and continuous screening will take place throughout October at the 
       },
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos7.webp',
-        alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
-      },
-      {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos5.webp',
-        alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
+        src: '/images/argos/Argos13.webp',
+        alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
       },
       {
         type: MEDIA_TYPE.YOUTUBE,
         src: '43q-drprP40?si=hrd-9ut9M4kEhZtA',
         alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
       },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/argos/Argos5.webp',
+        alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
+      },
+
 
    
 
@@ -1532,12 +1537,6 @@ The premiere and continuous screening will take place throughout October at the 
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/argos/Argos14.webp',
-        alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
-      },
-
-      {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos13.webp',
         alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
       },
       {
