@@ -304,9 +304,9 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
       },
     ],
 
-  },
+  }, 
 
-  {
+ /* {
     id: 3,
     category: SECTION.PROYECTOSJORGE,
     navTitle: 'Sons i sorolls',
