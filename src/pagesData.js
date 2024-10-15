@@ -268,13 +268,13 @@ Premiered in Short PAM!21” in La Filmoteca, Valencia`,
       texts: [
         {
           language: 'es',
-          value: `«Materia Eléctrica» de Jorge Dabaliña es una instalación presentada en conjunto con «Sons i sorolls» de Roser Domingo. «Materia Eléctrica» es un sistema de vídeo de circuito cerrado donde la señal fluye sin necesidad de ser grabada en ningún tipo de soporte. Las cámaras de vigilancia instaladas detectan el movimiento y el espectador es el primer eslabón de una cadena de transmutaciones a las que se somete la imagen.Las dos propuestas se entrelazan entre sí para establecer nuevos diálogos de comunicación entre el mundo analógico y el digital y permitir una experiencia interactiva autogenerativa.
+          value: `«Materia Eléctrica» es un sistema de vídeo de circuito cerrado donde la señal fluye sin necesidad de ser grabada en ningún tipo de soporte. Las cámaras de vigilancia instaladas detectan el movimiento y el espectador es el primer eslabón de una cadena de transmutaciones a las que se somete la imagen. «Materia Eléctrica» de Jorge Dabaliña es una instalación presentada en conjunto con «Sons i sorolls» de Roser Domingo.Las dos propuestas se entrelazan entre sí para establecer nuevos diálogos de comunicación entre el mundo analógico y el digital y permitir una experiencia interactiva autogenerativa.
 
 Instalación audiovisual interactiva expuesta y premiada en la exposición «PAM!21, IX Muestra de Producciones Artísticas y Multimedia» de la Facultad de Bellas Artes de la Universitat Politècnica de València.`,
         },
         {
           language: 'en',
-          value: `«Materia Eléctrica» by Jorge Dabaliña is an interactive installation presented with «Sons i sorolls» by Roser Domingo. «Materia Eléctrica» is a closed-circuit video system where the signal flows without the need to be recorded on any medium. The installed surveillance cameras detect movement, and the viewer becomes the first link in a chain of transformations to which the image is subjected. On the sound level. The two proposals intertwine to establish new dialogues of communication between the analog and digital worlds, allowing for a self-generative interactive experience.
+          value: `«Materia Eléctrica» is a closed-circuit video system where the signal flows without the need to be recorded on any medium. The installed surveillance cameras detect movement, and the viewer becomes the first link in a chain of transformations to which the image is subjected. «Materia Eléctrica» by Jorge Dabaliña is an interactive installation presented with «Sons i sorolls» by Roser Domingo. The two proposals intertwine to establish new dialogues of communication between the analog and digital worlds, allowing for a self-generative interactive experience.
       
 This interactive audiovisual installation was exhibited and awarded at the «PAM!21, IX Muestra de Producciones Artísticas y Multimedia» at the Faculty of Fine Arts of the Universitat Politècnica de València.`,
           
@@ -464,11 +464,11 @@ Interactive website selected in the «Cultura Online #CMCVaCasa 2023» competiti
         src: '/images/grados/grados2.webp',
         alt: 'Proyecto 1.1 Grados Performance audiovisual A/V La Mutant Valencia',
       },
-      {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/grados/grados1.webp',
-        alt: 'Proyecto 1.1 Grados Performance audiovisual A/V La Mutant Valencia',
-      },
+      // {
+      //   type: MEDIA_TYPE.IMAGE,
+      //   src: '/images/grados/grados1.webp',
+      //   alt: 'Proyecto 1.1 Grados Performance audiovisual A/V La Mutant Valencia',
+      // },
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/grados/grados6.webp',
@@ -668,7 +668,7 @@ Project created by Jorge Dabaliña and Roser Domingo and awarded in the 2022 «R
   {
     id: 15,
     category: SECTION.PROYECTOSAMBOS,
-    navTitle: 'Sistema Nervioso Extendido',
+    navTitle: 'Sistema nervioso extendido',
     pathNav: '/projects/sne',
     title: 'Sistema Nervioso Extendido #1 (Vista)',
     details: {
@@ -755,11 +755,6 @@ Installation created by Jorge Dabaliña and Roser Domingo. It was part of the ex
         src: '/images/sne/SNE8.webp',
         alt: 'Instalación Sistema Nervioso Extendido PAM!PAM!22 Atarazanas Valencia',
       },
-      {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/sne/SNE5.webp',
-        alt: 'Instalación Sistema Nervioso Extendido PAM!PAM!22 Atarazanas Valencia',
-      },
     ],
   },
 
@@ -809,12 +804,7 @@ Installation created by Jorge Dabaliña and Roser Domingo. It was part of the ex
 
       },
 
-      {
-        size: MEDIA_SIZE.MEDIUM,
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/interferencia/interferencia1.webp',
-        alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
-      },
+      
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/interferencia/interferencia3.webp',
@@ -826,11 +816,12 @@ Installation created by Jorge Dabaliña and Roser Domingo. It was part of the ex
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
       {
-        type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
-        src: '/images/interferencia/interferencia.gif',
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/interferencia/interferencia1.webp',
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
+      
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
@@ -850,7 +841,7 @@ Installation created by Jorge Dabaliña and Roser Domingo. It was part of the ex
     pathNav: '/projects/horizontedesucesos',
     title: 'Horizonte de sucesos',
     details: {
-      media: 'A/V Performance',
+      media: 'Live A/V',
       year: '2024',
     },
     featured: {
@@ -913,12 +904,7 @@ Performed by Jorge Dabaliña and Roser Domingo, at the Ferreres Goerlich room of
         src: '/images/horizonte/horizonte6.webp',
         alt: 'Performance Audiovisual A/V Horizonte de sucesos CCCC Centre del Carme Cultura Contemporanea Valencia',
       },
-      {
-        type: MEDIA_TYPE.IMAGE,
-        size: MEDIA_SIZE.LARGE,
-        src: '/images/horizonte/horizonte7.gif',
-        alt: 'Performance Audiovisual A/V Horizonte de sucesos CCCC Centre del Carme Cultura Contemporanea Valencia',
-      },
+    
     ],
   },
 
@@ -1373,7 +1359,7 @@ The premiere and continuous screening will take place throughout October at the 
       {
         type: MEDIA_TYPE.TEXT,
         size: MEDIA_SIZE.MEDIUM,
-        header: "No-input [ A/V Performance 2022 ]",
+        header: "No-input [ Live A/V 2022 ]",
         externalLink: "youtube.com",
         texts: [
           {
@@ -1410,7 +1396,7 @@ The premiere and continuous screening will take place throughout October at the 
 
       {
         type: MEDIA_TYPE.TEXT,
-        header: "Orfeo [ A/V Performance 2023 ]",
+        header: "Orfeo [ Live A/V 2023 ]",
         // externalLink: "youtube",
         texts: [
           {
@@ -1446,7 +1432,7 @@ The premiere and continuous screening will take place throughout October at the 
 
       {
         type: MEDIA_TYPE.TEXT,
-        header: "Audiovisual Body [A/V Performance 2023]",
+        header: "Audiovisual Body [Live A/V 2023]",
         // externalLink: "youtube",
         texts: [
           {
@@ -1486,7 +1472,7 @@ The premiere and continuous screening will take place throughout October at the 
     pathNav: '/projects/reactivewavecubes',
     title: 'Reactive Wave Cubes',
     details: {
-      media: 'A/V Performance',
+      media: 'Live A/V',
       year: '2021',
     },
     featured:

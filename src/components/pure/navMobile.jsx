@@ -42,12 +42,12 @@ function NavMobile() {
         aria-labelledby="offcanvasLabel"
       >
         <div className="offcanvas-header">
-          <div className="container d-flex align-items-center justify-content-between">
-            <h2 className='nav-title'
+          <div className="container d-flex align-items-center justify-content-end">
+            {/* <h2 className='nav-title'
               id="offcanvasLabel"
               onClick={() => setShowMenu(false)}>
               <NavLink to='/'>{pageId ? PAGE_TITTLE.ROSER : PAGE_TITTLE.JORGE}</NavLink>
-            </h2>
+            </h2> */}
             <button
               className="btn pe-0"
               type="button"
@@ -61,7 +61,7 @@ function NavMobile() {
         </div>
    
         <div className="offcanvas-body">
-          <div className='container '>
+          <div className='container nav-mobile'>
             <ul className="navbar-nav justify-content-start">
               {list.filter(({ category }) => pageId ? category === SECTION.PROYECTOSROSER | category === SECTION.PROYECTOSAMBOS : category === SECTION.PROYECTOSJORGE | category === SECTION.PROYECTOSAMBOS)
                 .sort((a, b) => b.id - a.id)

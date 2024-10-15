@@ -5,6 +5,8 @@ import { Helmet } from 'react-helmet';
 import { pageId } from '../pagesData';
 import { PAGE_TITTLE } from '../models/project.enum';
 
+import '../styles/home.css'
+
 function Home() {
 
 
@@ -12,54 +14,63 @@ function Home() {
   const [currentPicIndex, setCurrentPicIndex] = useState(0);
   const [matches, setMatches] = useState(window.matchMedia("(min-width: 768px)").matches);
 
+
+  const CarouselIndicator = ({ index, currentIndex }) => {
+    if (index === currentIndex) {
+      return <div className="carouselIndicator carouselIndicatorActive"
+      >
+
+      </div>
+
+    } else {
+      return <div
+        className="carouselIndicator" onClick={() => changeImageToIndex(index)}>
+
+
+
+
+      </div>;
+    }
+  }
+
+
   const images = [
+    
     {
-      src: '/images/entrelazada/entrelazada_1.jpg',
+      src: '/images/home/homeSne.gif',
       alt: '',
-      text: "Exploración Entrelazada (2021)",
-      pathNav: '/projects/exploracionEntrelazada',
-    },
-    {
-      src: '/images/delotrolado/delotrolado_featured.jpg',
-      alt: '',
-      text: "Del otro lado (2021)",
-      pathNav: '/projects/delotrolado',
-    },
-    {
-      src: '/images/grados/grados_2.jpg',
-      alt: '',
-      text: "1.1 Grados (2021)",
-      pathNav: '/projects/1.1grados',
-    },
-    {
-      src: '/images/negroponte/negroponte_2.jpg',
-      alt: '',
-      text: "Negroponte (2021)",
-      pathNav: '/projects/negroponte',
-    },
-    {
-      src: '/images/electrica/electrica_1.jpg',
-      alt: '',
-      text: "Materia eléctrica (2021)",
-      pathNav: '/projects/electrica',
-    },
-    {
-      src: '/images/sne/sne_home.jpg',
-      alt: '',
-      text: "Sistema Nervioso Extendido #1 (Vista) (2023)",
+      text: "Sistema nervioso extendido #1 (Vista) (2023)",
       pathNav: '/projects/sne',
     },
     {
-      src: '/images/grados/grados_home.jpg',
+      src: '/images/home/homeInterferencia.gif',
       alt: '',
-      text: "1.1 grados (2023)",
-      pathNav: '/projects/grados',
+      text: "Interferencia (2023)",
+      pathNav: '/projects/interferencia',
+    },
+    {
+      src: '/images/home/homeGrados.gif',
+      alt: '',
+      text: "1.1 grados (2022)",
+      pathNav: '/projects/1.1grados',
+    },
+    {
+      src: '/images/home/homeHorizonte.gif',
+      alt: '',
+      text: "Horizonte de sucesos (2024)",
+      pathNav: '/projects/horizontedesucesos',
+    },
+    {
+      src: '/images/home/homeEntrelazada.gif',
+      alt: '',
+      text: "Exploración entrelazada (2021)",
+      pathNav: '/projects/exploracionEntrelazada',
     },
   ];
 
   useEffect(() => {
     changeImageRandom();
-    
+
     const handler = e => setMatches(e.matches);
     const matchMedia = window.matchMedia("(min-width: 768px)");
 
@@ -74,37 +85,90 @@ function Home() {
     return () => clearInterval(interval);
   }, [currentPicIndex]);
 
+
+
   function changeImageNext() {
     const nextPicIndex = (currentPicIndex + 1) % (images.length);
     setCurrentPicIndex(nextPicIndex);
   }
+
+  // function changeImagePrev() {
+  //   const nextPicIndex = (currentPicIndex - 1) % (images.length);
+  //   setCurrentPicIndex(nextPicIndex);
+  // }
 
   function changeImageRandom() {
     const picRandom = Math.floor(Math.random() * (images.length));
     setCurrentPicIndex(picRandom);
   }
 
+  function changeImageToIndex(index) {
+    const indexToImage = index % (images.length);
+    setCurrentPicIndex(indexToImage);
+  }
+
+
+
+
+
+
+
+
+
   return (
-    
+
 
     <section className='container text-left px-0 overflow-hidden'>
-        <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>{pageId ? PAGE_TITTLE.ROSER : PAGE_TITTLE.JORGE}</title>
         {/* <link rel="canonical" href="http://mysite.com/projects/{project.title}" /> */}
-  </Helmet>
+      </Helmet>
+
+
       <div className={`home-content row ${matches ? 'row-cols-1' : 'row-cols-1 gy-4'}`}>
-        <img className='proj-media-img w-100 img-fluid'
+        <img 
+          onClick={() => changeImageNext()}
+          className='proj-media-img w-100 img-fluid'
           src={images[currentPicIndex].src}
           alt={images[currentPicIndex].alt}
         />
 
-        <div className='home-text w-100 pt-2'>
-        <NavLink to={images[currentPicIndex].pathNav}>
-          <p className='home-introduction text-end'>
-            {images[currentPicIndex].text}
-        
-          </p>
+        <div className='indicatorsContainer col-sm-2 pt-2 '>
+
+          {
+            images.map((image, index) => (
+
+
+
+              <div className='eldivdelindicador'>
+                <CarouselIndicator
+                  key={index}
+                  index={index}
+                  currentIndex={currentPicIndex} >
+                </CarouselIndicator>
+              </div>
+            )
+            )
+          }
+
+
+        </div>
+
+
+        {/* <div className='col-sm-4'>
+          <button onClick={changeImageNext}>next</button>
+          <button onClick={changeImagePrev}>prev</button>
+        </div> */}
+
+
+
+        <div className='home-text col-sm-10 pt-2'>
+          <NavLink to={images[currentPicIndex].pathNav}>
+            <p className='home-introduction text-end'>
+              {images[currentPicIndex].text}
+
+            </p>
           </NavLink>
         </div>
       </div>

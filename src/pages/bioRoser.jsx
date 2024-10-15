@@ -15,19 +15,25 @@ const BioRoser = () => {
 
       <div className='about-body row align-items-center pt-4'>
 
-        <div className="bio ">
+        
+<div className='row' >
+        <div className="bio col-sm-8">
+        
           <ul className='list-group mb-4'>
             <li className='list-group-item px-4'>
               Roser Domingo es artista multimedia, músico e investigadora, afincada en Valencia. Se encuentra realizando su tesis doctoral en el grupo de investigación «Laboratorio de Luz» de la Universitat Politècnica de València, enfocando su práctica artística en la luz, su incidencia y distorsión, sobre distintos elementos. También lleva a cabo experimentaciones en la intersección de sonido e imagen en actuaciones en directo.  
             </li>
             
           </ul>
+          
           <ul  className='list-group mb-4'><li className='list-group-item px-4'><div><DownloadButton fileUrl={file} fileText={filetext}/> </div></li></ul>
           
-
+          
           
         </div>
-
+        <div className='col-sm-4'><img className='rounded img-fluid'  src='/images/manipulando/manipulando1.webp' alt="" /></div>
+        </div>
+        
         <div className="experiencia">
           <h3>Experiencia</h3>
           <ul className='list-group mb-4'>

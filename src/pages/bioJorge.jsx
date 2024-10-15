@@ -1,7 +1,7 @@
 import React from 'react';
 import DownloadButton from '../components/pure/downloadButton';
 
-const file = "http://localhost:3000/images/interferencia/interferencia_featured.jpg";
+const file = "http://localhost:3000/docs/CV Jorge Sánchez Dabaliña.pdf";
 const filetext = "Download CV ";
 
 const BioJorge = () => {
@@ -20,7 +20,7 @@ const BioJorge = () => {
             <li className='list-group-item px-4'>
 
               <div className='mb-2 mt-2'>
-                <i>Jorge Dabaliña</i> is a multimedia artist and researcher based in Valencia. He is currently pursuing his PhD at the <i>Laboratorio de Luz</i> research group at the <i>Universitat Politècnica de València (UPV)</i> and is actively involved in the project <i>Argos. Audiovisual Performances Developed from Sound and Scenic Space</i>. He holds a degree in <i>Design and Creative Technologies</i> and a Master's in <i>Visual Arts and Multimedia</i>, both from UPV.
+                Jorge Dabaliña is a multimedia artist and researcher based in Valencia. He is currently pursuing his PhD at the <i>Laboratorio de Luz</i> research group at the <i>Universitat Politècnica de València (UPV)</i> and is actively involved in the project <i>Argos. Audiovisual Performances Developed from Sound and Scenic Space</i>. He holds a degree in <i>Design and Creative Technologies</i> and a Master's in <i>Visual Arts and Multimedia</i>, both from UPV.
               </div>
               <div className='mb-2'>
                 Jorge’s research focuses on video feedback techniques, an exploration complemented by his interest in fields such as audiovisual production, creative programming, and sound creation. Together with artist and researcher <i>Roser Domingo</i>, he has developed audiovisual performances and installations that experiment with new ways of working with image and sound, creating immersive and unique experiences for audiences.
