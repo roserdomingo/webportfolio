@@ -130,7 +130,7 @@ export const pagesData = [
     },
     featured: {
       type: MEDIA_TYPE.IMAGE,
-      src: '/images/entrelazada/entrelazada_featured.jpg',
+      src: '/images/entrelazada/entrelazada_featured.webp',
       alt: 'Proyección de Exploración entrelazada en la Fachada Media de Etopía (Zaragoza)',
 
 
@@ -172,7 +172,7 @@ Estreno y proyección continua durante el mes de agosto en la Fachada Media de E
       },
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/entrelazada/entrelazada_1.jpg',
+        src: '/images/entrelazada/entrelazada_1.webp',
         alt: 'Fotografía de la fachada media proyectando Exploración',
 
       },
@@ -249,7 +249,7 @@ Premiered in Short PAM!21” in La Filmoteca, Valencia`,
   //----------------------------------------------------------------------------------------------------------------
   {
     id: 3,
-    category: SECTION.PROYECTOSJORGE,
+    category: SECTION.PROYECTOSROSER,
     navTitle: 'Materia eléctrica',
     pathNav: '/projects/materiaelectrica',
     title: 'Materia eléctrica',
@@ -308,10 +308,10 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
 
   {
     id: 3,
-    category: SECTION.PROYECTOSROSER,
+    category: SECTION.PROYECTOSJORGE,
     navTitle: 'Sons i sorolls',
-    pathNav: '/projects/materiaelectrica+sonsisorolls',
-    title: 'Materia eléctrica + Sons i sorolls',
+    pathNav: '/projects/sonsisorolls',
+    title: 'Sons i sorolls',
     details: {
       media: 'Instalación',
       year: '2021',
@@ -327,11 +327,16 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
       texts: [
         {
           language: 'es',
-          value: `«Sons i sorolls» de Roser Domingo es una instalación sonora presentada en conjunto con «Materia Eléctrica» de Jorge Dabaliña. «Sons i sorolls» consiste en una instalación interactiva octofónica que cuestiona la relación sinestésica entre imagen y sonido. Modifica el resultado según lo que ocurre a su alrededor. Las dos propuestas se entrelazan entre sí para establecer nuevos diálogos de comunicación entre el mundo analógico y el digital y permitir una experiencia interactiva autogenerativa.`,
+          value: `«Sons i sorolls» de Roser Domingo es una instalación sonora presentada en conjunto con «Materia Eléctrica» de Jorge Dabaliña. «Sons i sorolls» consiste en una instalación interactiva octofónica que cuestiona la relación sinestésica entre imagen y sonido. Modifica el resultado según lo que ocurre a su alrededor. Las dos propuestas se entrelazan entre sí para establecer nuevos diálogos de comunicación entre el mundo analógico y el digital y permitir una experiencia interactiva autogenerativa.
+
+Instalación audiovisual interactiva expuesta y premiada en la exposición «PAM!21, IX Muestra de Producciones Artísticas y Multimedia» de la Facultad de Bellas Artes de la Universitat Politècnica de València.`,
+        
         },
         {
           language: 'en',
-          value: `«Sons i sorolls» by Roser Domingo is a sonic installation presented with «Materia Eléctrica» by Jorge Dabaliña. «Sons i sorolls» is an interactive octophonic installation that questions the synesthetic relationship between image and sound, altering the result based on what happens around it. The two proposals intertwine to establish new dialogues of communication between the analog and digital worlds, allowing for a self-generative interactive experience.`,
+          value: `«Sons i sorolls» by Roser Domingo is a sound installation presented with «Materia Eléctrica» by Jorge Dabaliña. «Sons i sorolls» is an interactive octophonic installation that questions the synesthetic relationship between image and sound, altering the result based on what happens around it. The two proposals intertwine to establish new dialogues of communication between the analog and digital worlds, allowing for a self-generative interactive experience.
+          
+This interactive audiovisual installation was exhibited and awarded at the «PAM!21, IX Muestra de Producciones Artísticas y Multimedia» at the Faculty of Fine Arts of the Universitat Politècnica de València.`,
         },
       ],
     },
@@ -341,28 +346,12 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
         src: '57H8hi3NkBc?si=b7wCtua3kGPXoo1_',
         alt: 'Video Materia Eléctrica y Sons i sorolls Instalación interactiva PAM!21 Facultad Bellas Artes Universitat Politècnica de València',
       },
-
       {
-        type: MEDIA_TYPE.TEXT,
-        texts: [
-          {
-            language: 'es',
-            value: `Instalación audiovisual interactiva expuesta y premiada en la exposición «PAM!21, IX Muestra de Producciones Artísticas y Multimedia» de la Facultad de Bellas Artes de la Universitat Politècnica de València.`,
-          },
-          {
-            language: 'en',
-            value: `This interactive audiovisual installation was exhibited and awarded at the «PAM!21, IX Muestra de Producciones Artísticas y Multimedia» at the Faculty of Fine Arts of the Universitat Politècnica de València.`,
-          },
-        ]
+        type: MEDIA_TYPE.SOUNDCLOUD,
+        url: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1935387332&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        alt: 'Audio Sons i sorolls Instalación interactiva PAM!21 Facultad Bellas Artes Universitat Politècnica de València',
       },
 
-
-
-      {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/electrica/PAM1.webp',
-        alt: 'Materia Eléctrica y Sons i sorolls Instalación interactiva PAM!21 Facultad Bellas Artes Universitat Politècnica de València',
-      },
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/electrica/PAM3.webp',
@@ -371,6 +360,12 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/electrica/PAM4.webp',
+        alt: 'Materia Eléctrica y Sons i sorolls Instalación interactiva PAM!21 Facultad Bellas Artes Universitat Politècnica de València',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/electrica/PAM1.webp',
         alt: 'Materia Eléctrica y Sons i sorolls Instalación interactiva PAM!21 Facultad Bellas Artes Universitat Politècnica de València',
       },
     ],
@@ -1249,7 +1244,7 @@ Project carried out by Jorge Dabaliña, Roser Domingo and Irene Sánchez. It was
   //----------------------------------------------------------------------------------------------------------------
   {
     id: 8,
-    category: SECTION.PROYECTOSJORGE,
+    category: SECTION.PROYECTOSROSER,
     navTitle: 'Transcurrir',
     pathNav: '/projects/transcurrir',
     title: 'Transcurrir',

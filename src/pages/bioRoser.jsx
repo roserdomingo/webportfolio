@@ -31,7 +31,7 @@ const BioRoser = () => {
           
           
         </div>
-        <div className='col-sm-4'><img className='rounded img-fluid'  src='/images/manipulando/manipulando1.webp' alt="" /></div>
+        <div className='col-sm-4'><img className='rounded img-fluid'  src='/images/bio/fotoRoser.webp' alt="Foto Roser Domingo" /></div>
         </div>
         
         <div className="experiencia">
