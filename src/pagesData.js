@@ -247,9 +247,9 @@ Premiered in Short PAM!21” in La Filmoteca, Valencia`,
   //----------------------------------------------------------------------------------------------------------------
   // PROYECTO 4 (orden 3)
   //----------------------------------------------------------------------------------------------------------------
- /* {
+  {
     id: 3,
-    category: SECTION.PROYECTOSROSER,
+    category: SECTION.PROYECTOSJORGE,
     navTitle: 'Materia eléctrica',
     pathNav: '/projects/materiaelectrica',
     title: 'Materia eléctrica',
@@ -304,11 +304,11 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
       },
     ],
 
-  }, */
+  }, 
 
   {
     id: 3,
-    category: SECTION.PROYECTOSJORGE,
+    category: SECTION.PROYECTOSROSER,
     navTitle: 'Sons i sorolls',
     pathNav: '/projects/sonsisorolls',
     title: 'Sons i sorolls',
@@ -929,9 +929,9 @@ Performed by Jorge Dabaliña and Roser Domingo, at the Ferreres Goerlich room of
   //----------------------------------------------------------------------------------------------------------------
   // PROYECTO 13 (orden 14)
   //----------------------------------------------------------------------------------------------------------------
-  {
+ /* {
     id: 14,
-    category: SECTION.PROYECTOSAMBOS,
+    category: SECTION.PROYECTOSJORGE,
     navTitle: 'Clock',
     pathNav: '/projects/clock',
     title: 'Clock',
@@ -971,6 +971,53 @@ Piece created by Jorge Dabaliña and Roser Domingo. First prize in the «Premios
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/clock/Clock2.webp',
+        alt: 'Video musical Clock Premios NarrArtístic y de Creatividad Musical Juventud Ayuntamiento Valencia',
+      },
+
+    ],
+  }, */
+
+  {
+    id: 14,
+    category: SECTION.PROYECTOSJORGE,
+    navTitle: 'Clock',
+    pathNav: '/projects/clock',
+    title: 'Clock',
+    details: {
+      media: 'A/V',
+      year: '2023',
+    },
+    featured:  {
+      type: MEDIA_TYPE.YOUTUBE,
+      src: '9rxbWAn1Ckg?si=IsvgiXKLSm3D5wMw',
+      alt: 'Video musical Clock Premios NarrArtístic y de Creatividad Musical Juventud Ayuntamiento Valencia',
+    },
+    description: {     
+      header: null,
+      externalLink: null,
+      texts: [
+      {
+        language: 'es',
+        value:
+          `«Clock» es un poema sinestésico de luz y sonido, un carrusel estenopeico de ideas y texturas. La obra se presenta como una odisea del reloj, esa criatura mecánica y digital que dicta el pulso de nuestras vidas. Con la llegada de este utensilio, estos ritmos orgánicos y fluidos fueron divididos en segmentos uniformes e invariables: horas, minutos, segundos. Este nuevo tiempo medible y predecible cambió nuestra forma de vivir, de trabajar, de organizar nuestras sociedades. En este universo, el tiempo no es lineal sino fractal, momentos que se mezclan en un torrente de vivencias. La aceleración invoca un fantasma, una sombra parpadeante que danza en las periferias de nuestra percepción.
+
+Obra realizada por Jorge Dabaliña y Roser Domingo. Primer premio en la convocatoria de «Premios NarrArtístic y de Creatividad Musical» de la Concejalía de Juventud del Ayuntamiento de València.`},
+      {
+        language: 'en',
+        value: `«Clock» is a synesthetic poem of light and sound, a pinhole carousel of ideas and textures. The piece is presented as an odyssey of the clock, that mechanical and digital creature that dictates the pulse of our lives. With the arrival of this device, these organic and fluid rhythms were divided into uniform and invariable segments: hours, minutes, seconds. This new measurable and predictable time changed the way we live, work, and organize our societies. And in this universe, time is not linear but fractal, moments that blend into a torrent of experiences. Acceleration invokes a ghost, a flickering shadow dancing on the periphery of our perception.
+
+Piece created by Jorge Dabaliña and Roser Domingo. First prize in the «Premios NarrArtístic y de Creatividad Musical» competition by the Youth Department of the València City Council.`
+      },
+    ],},
+    media: [
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/clock/Clock2.webp',
+        alt: 'Video musical Clock Premios NarrArtístic y de Creatividad Musical Juventud Ayuntamiento Valencia',
+      },
+      {
+        type: MEDIA_TYPE.SOUNDCLOUD,
+        url: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1933175861&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
         alt: 'Video musical Clock Premios NarrArtístic y de Creatividad Musical Juventud Ayuntamiento Valencia',
       },
 
