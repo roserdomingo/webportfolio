@@ -247,7 +247,7 @@ Premiered in Short PAM!21” in La Filmoteca, Valencia`,
   //----------------------------------------------------------------------------------------------------------------
   // PROYECTO 4 (orden 3)
   //----------------------------------------------------------------------------------------------------------------
-  {
+ /* {
     id: 3,
     category: SECTION.PROYECTOSROSER,
     navTitle: 'Materia eléctrica',
@@ -304,9 +304,9 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
       },
     ],
 
-  }, 
+  }, */
 
- /* {
+  {
     id: 3,
     category: SECTION.PROYECTOSJORGE,
     navTitle: 'Sons i sorolls',
@@ -594,6 +594,7 @@ Interactive website selected in the «Cultura Online #CMCVaCasa 2023» competiti
         src: '/images/tiempo/TP6.webp',
         alt: 'Performance audiovisual A/V Tiempo profundo Matadero Madrid',
       },
+
     ],
 
   },
