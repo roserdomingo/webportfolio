@@ -450,7 +450,7 @@ Interactive website selected in the «Cultura Online #CMCVaCasa 2023» competiti
 
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/grados/grados3.webp',
+        src: '/images/grados/grados9.webp',
         alt: 'Proyecto 1.1 Grados exposición Espai Jove Ayuntamiento Valencia',
       },
 
@@ -653,6 +653,16 @@ Project created by Jorge Dabaliña and Roser Domingo and awarded in the 2022 «R
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/intra-señales/Intra-señales4.webp',
+        alt: 'Intra-señales Performance audiovisual A/V Juventud Espai Jove Ayuntamiento Valencia',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/intra-señales/Intra-señales5.webp',
+        alt: 'Intra-señales Performance audiovisual A/V Juventud Espai Jove Ayuntamiento Valencia',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/intra-señales/Intra-señales6.webp',
         alt: 'Intra-señales Performance audiovisual A/V Juventud Espai Jove Ayuntamiento Valencia',
       },
     ],
@@ -1024,7 +1034,7 @@ Project carried out by Jorge Dabaliña, Roser Domingo and Irene Sánchez. It was
   //----------------------------------------------------------------------------------------------------------------
   {
     id: 19,
-    category: SECTION.PROYECTOSROSER,
+    category: SECTION.PROYECTOSJORGE,
     navTitle: 'Manipulando la luz',
     pathNav: '/projects/manipulandolaluz',
     title: 'Manipulando la luz',
@@ -1093,6 +1103,49 @@ Project carried out by Jorge Dabaliña, Roser Domingo and Irene Sánchez. It was
         src: '/images/manipulando/Manipulando6.webp',
         alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
       },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico1.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Sala de documentación y pieza «Idea-Imatge-Universitat Reloaded»'
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico2.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Pieza «Modulador de luz»'
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico3.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Pieza «On-Off»'
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico4.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Pieza «Batterie-Cinema»'
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico5.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Pieza «Transductor Ecomedia» y «24 Frames»'
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/manipulando/manipulandoMosaico5.webp',
+        alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
+        caption: 'Pieza «Secuencias de continuidad»'
+      },
+
 
 
     ],
