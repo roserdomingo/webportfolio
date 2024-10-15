@@ -1468,7 +1468,7 @@ The premiere and continuous screening will take place throughout October at the 
       },
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos7.webp',
+        src: '/images/argos/Argos15.webp',
         alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
       },
       {
@@ -1502,7 +1502,7 @@ The premiere and continuous screening will take place throughout October at the 
       },
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos13.webp',
+        src: '/images/argos/Argos3.webp',
         alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
       },
       {
@@ -1515,9 +1515,6 @@ The premiere and continuous screening will take place throughout October at the 
         src: '/images/argos/Argos5.webp',
         alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
       },
-
-
-   
 
       {
         type: MEDIA_TYPE.TEXT,
@@ -1536,7 +1533,7 @@ The premiere and continuous screening will take place throughout October at the 
 
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos14.webp',
+        src: '/images/argos/Argos16.webp',
         alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
       },
       {
