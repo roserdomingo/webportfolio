@@ -56,7 +56,7 @@ export const pagesData = [
     },
     featured: {
       type: MEDIA_TYPE.IMAGE,
-      src: '/images/negroponte/negroponte_featured.jpg',
+      src: '/images/negroponte/negroponte_featured.webp',
       alt: 'Portada del EP Negroponte',
 
     },
@@ -93,21 +93,21 @@ export const pagesData = [
       {
         size: MEDIA_SIZE.LARGE,
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/negroponte/negroponte_4.jpg',
+        src: '/images/negroponte/negroponte_4.webp',
         alt: 'Negroponte, musica visual, jorge dabaliña, audiovisualización, EP',
 
       },
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
-        src: '/images/negroponte/negroponte_5.jpg',
+        src: '/images/negroponte/negroponte_5.webp',
         alt: 'Negroponte, musica visual, jorge dabaliña, audiovisualización, EP',
 
       },
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
-        src: '/images/negroponte/negroponte_2.jpg',
+        src: '/images/negroponte/negroponte_2.webp',
         alt: 'Negroponte, musica visual, jorge dabaliña, audiovisualización, EP',
 
       },
@@ -583,9 +583,20 @@ Interactive website selected in the «Cultura Online #CMCVaCasa 2023» competiti
         src: '/images/tiempo/TP5.webp',
         alt: 'Performance audiovisual A/V Tiempo profundo Matadero Madrid',
       },
-      {
+      /* {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/tiempo/TP4.webp',
+        alt: 'Performance audiovisual A/V Tiempo profundo Matadero Madrid',
+      }, */
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/tiempo/TP7.gif',
+        alt: 'Performance audiovisual A/V Tiempo profundo Matadero Madrid',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/tiempo/TP6.webp',
         alt: 'Performance audiovisual A/V Tiempo profundo Matadero Madrid',
       },
     ],
@@ -760,6 +771,12 @@ Installation created by Jorge Dabaliña and Roser Domingo. It was part of the ex
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/sne/SNE8.webp',
+        alt: 'Instalación Sistema Nervioso Extendido PAM!PAM!22 Atarazanas Valencia',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/sne/SNE5.webp',
         alt: 'Instalación Sistema Nervioso Extendido PAM!PAM!22 Atarazanas Valencia',
       },
     ],
@@ -1034,7 +1051,7 @@ Project carried out by Jorge Dabaliña, Roser Domingo and Irene Sánchez. It was
   //----------------------------------------------------------------------------------------------------------------
   {
     id: 19,
-    category: SECTION.PROYECTOSJORGE,
+    category: SECTION.PROYECTOSROSER,
     navTitle: 'Manipulando la luz',
     pathNav: '/projects/manipulandolaluz',
     title: 'Manipulando la luz',
@@ -1098,11 +1115,11 @@ Project carried out by Jorge Dabaliña, Roser Domingo and Irene Sánchez. It was
         src: '/images/manipulando/Manipulando3.webp',
         alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
       },
-      {
+      /* {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/manipulando/Manipulando6.webp',
         alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
-      },
+      }, */
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
@@ -1141,7 +1158,7 @@ Project carried out by Jorge Dabaliña, Roser Domingo and Irene Sánchez. It was
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
-        src: '/images/manipulando/manipulandoMosaico5.webp',
+        src: '/images/manipulando/manipulandoMosaico6.webp',
         alt: 'Manipulando la luz Experimentación Taller Proyecto Centre del Carme Cultura Contemporanea Valencia',
         caption: 'Pieza «Secuencias de continuidad»'
       },
@@ -1232,7 +1249,7 @@ Project carried out by Jorge Dabaliña, Roser Domingo and Irene Sánchez. It was
   //----------------------------------------------------------------------------------------------------------------
   {
     id: 8,
-    category: SECTION.PROYECTOSROSER,
+    category: SECTION.PROYECTOSJORGE,
     navTitle: 'Transcurrir',
     pathNav: '/projects/transcurrir',
     title: 'Transcurrir',
