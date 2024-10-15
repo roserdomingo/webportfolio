@@ -929,7 +929,7 @@ Performed by Jorge Dabaliña and Roser Domingo, at the Ferreres Goerlich room of
   //----------------------------------------------------------------------------------------------------------------
   // PROYECTO 13 (orden 14)
   //----------------------------------------------------------------------------------------------------------------
- /* {
+ {
     id: 14,
     category: SECTION.PROYECTOSJORGE,
     navTitle: 'Clock',
@@ -975,11 +975,11 @@ Piece created by Jorge Dabaliña and Roser Domingo. First prize in the «Premios
       },
 
     ],
-  }, */
+  },
 
   {
     id: 14,
-    category: SECTION.PROYECTOSJORGE,
+    category: SECTION.PROYECTOSROSER,
     navTitle: 'Clock',
     pathNav: '/projects/clock',
     title: 'Clock',
@@ -1451,19 +1451,6 @@ The premiere and continuous screening will take place throughout October at the 
       },
     ],},
     media: [
-
-
-      {
-        type: MEDIA_TYPE.YOUTUBE,
-        src: 'RzHNzeDBbFU?si=bXkN8jSLpTuTrvqM',
-        alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
-      },
-      {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos11.webp',
-        alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
-      },
-
       {
         type: MEDIA_TYPE.TEXT,
         size: MEDIA_SIZE.MEDIUM,
@@ -1479,27 +1466,20 @@ The premiere and continuous screening will take place throughout October at the 
           },
         ]
       },
-
+      
+      {
+        type: MEDIA_TYPE.YOUTUBE,
+        src: 'RzHNzeDBbFU?si=bXkN8jSLpTuTrvqM',
+        alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
+      },
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos7.webp',
+        src: '/images/argos/Argos11.webp',
         alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
       },
 
 
 
-
-      {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos5.webp',
-        alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
-      },
-
-      {
-        type: MEDIA_TYPE.YOUTUBE,
-        src: '43q-drprP40?si=hrd-9ut9M4kEhZtA',
-        alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
-      },
 
       {
         type: MEDIA_TYPE.TEXT,
@@ -1516,25 +1496,23 @@ The premiere and continuous screening will take place throughout October at the 
           },
         ]
       },
-
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos13.webp',
-        alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
+        src: '/images/argos/Argos7.webp',
+        alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
       },
-
-
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/argos/Argos5.webp',
+        alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
+      },
       {
         type: MEDIA_TYPE.YOUTUBE,
-        src: 'I7ysXdbH-M8?si=QdK0X2hdK_YM6IkG',
-        alt: 'Proyecto Argos Audiovisual Body Performance audiovisual A/V Live Performers Meeting Münster Alemania',
+        src: '43q-drprP40?si=hrd-9ut9M4kEhZtA',
+        alt: 'Proyecto Argos Orfeo Performance audiovisual A/V Live Performers Meeting Münster Alemania',
       },
 
-      {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos9.webp',
-        alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
-      },
+   
 
       {
         type: MEDIA_TYPE.TEXT,
@@ -1554,6 +1532,22 @@ The premiere and continuous screening will take place throughout October at the 
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/argos/Argos14.webp',
+        alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
+      },
+
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/argos/Argos13.webp',
+        alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
+      },
+      {
+        type: MEDIA_TYPE.YOUTUBE,
+        src: 'I7ysXdbH-M8?si=QdK0X2hdK_YM6IkG',
+        alt: 'Proyecto Argos Audiovisual Body Performance audiovisual A/V Live Performers Meeting Münster Alemania',
+      },
+      {
+        type: MEDIA_TYPE.IMAGE,
+        src: '/images/argos/Argos9.webp',
         alt: 'Proyecto Argos Audiovisual body Performance audiovisual A/V Etopia Centro de Arte y Tecnología Zaragoza',
       },
 
