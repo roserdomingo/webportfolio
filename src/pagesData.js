@@ -94,21 +94,21 @@ export const pagesData = [
         size: MEDIA_SIZE.LARGE,
         type: MEDIA_TYPE.IMAGE,
         src: '/images/negroponte/negroponte_4.jpg',
-        alt: 'Fotografía de la fachada media proyectando Exploración',
+        alt: 'Negroponte, musica visual, jorge dabaliña, audiovisualización, EP',
 
       },
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
         src: '/images/negroponte/negroponte_5.jpg',
-        alt: 'Fotografía de la fachada media proyectando Exploración',
+        alt: 'Negroponte, musica visual, jorge dabaliña, audiovisualización, EP',
 
       },
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
         src: '/images/negroponte/negroponte_2.jpg',
-        alt: 'Fotografía de la fachada media proyectando Exploración',
+        alt: 'Negroponte, musica visual, jorge dabaliña, audiovisualización, EP',
 
       },
       
@@ -121,9 +121,9 @@ export const pagesData = [
   {
     id: 7,
     category: SECTION.PROYECTOSJORGE,
-    navTitle: 'Exploracion entrelazada',
+    navTitle: 'Exploración entrelazada',
     pathNav: '/projects/exploracionEntrelazada',
-    title: 'Exploracion entrelazada',
+    title: 'Exploración entrelazada',
     details: {
       media: 'Video',
       year: '2021',
