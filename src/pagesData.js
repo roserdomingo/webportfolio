@@ -220,7 +220,7 @@ Premiered in Short PAM!21” in La Filmoteca, Valencia`,
     media: [
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/delotrolado/delotrolado_featured.jpg',
+        src: '/images/delotrolado/delotrolado_featured.webp',
         alt: 'Fotograma extraído de Del otro lado - Jorge Dabaliña',
 
       },
@@ -453,22 +453,13 @@ Interactive website selected in the «Cultura Online #CMCVaCasa 2023» competiti
         src: '/images/grados/grados3.webp',
         alt: 'Proyecto 1.1 Grados exposición Espai Jove Ayuntamiento Valencia',
       },
-      /* {
-        type: MEDIA_TYPE.IMAGE,
-        src: '/images/grados/grados4.webp',
-        alt: 'Proyecto 1.1 Grados exposición Espai Jove Ayuntamiento Valencia',
-      }, */
 
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/grados/grados2.webp',
         alt: 'Proyecto 1.1 Grados Performance audiovisual A/V La Mutant Valencia',
       },
-      // {
-      //   type: MEDIA_TYPE.IMAGE,
-      //   src: '/images/grados/grados1.webp',
-      //   alt: 'Proyecto 1.1 Grados Performance audiovisual A/V La Mutant Valencia',
-      // },
+
       {
         type: MEDIA_TYPE.IMAGE,
         src: '/images/grados/grados6.webp',
@@ -514,6 +505,12 @@ Interactive website selected in the «Cultura Online #CMCVaCasa 2023» competiti
       }`,
       },
 
+      {
+        type: MEDIA_TYPE.IMAGE,
+        size: MEDIA_SIZE.LARGE,
+        src: '/images/grados/grados8.webp',
+        alt: 'Proyecto 1.1 Grados superposición de tres capas de hexágonos',
+      },
 
     ],
   },
@@ -1350,7 +1347,7 @@ The premiere and continuous screening will take place throughout October at the 
       },
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/argos/Argos11.jpg',
+        src: '/images/argos/Argos11.webp',
         alt: 'Proyecto Argos No-Input Performance audiovisual A/V Live Performers Meeting Roma',
       },
 
