@@ -807,25 +807,25 @@ Installation created by Jorge Dabaliña and Roser Domingo. It was part of the ex
       
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/interferencia/interferencia3.webp',
+        src: '/images/interferencia/Interferencia3.webp',
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
       {
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/interferencia/interferencia4.webp',
+        src: '/images/interferencia/Interferencia4.webp',
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
       {
         size: MEDIA_SIZE.LARGE,
         type: MEDIA_TYPE.IMAGE,
-        src: '/images/interferencia/interferencia1.webp',
+        src: '/images/interferencia/Interferencia1.webp',
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
       
       {
         type: MEDIA_TYPE.IMAGE,
         size: MEDIA_SIZE.LARGE,
-        src: '/images/interferencia/interferencia5.webp',
+        src: '/images/interferencia/Interferencia5.webp',
         alt: 'Instalación Interferencia Espacio N-1 Biblioteca Central Universitat Politècnica de València UPV Valencia',
       },
     ],
@@ -871,8 +871,6 @@ Performed by Jorge Dabaliña and Roser Domingo, at the Ferreres Goerlich room of
       ],
     },
     media: [
-
-
       {
         type: MEDIA_TYPE.YOUTUBE,
         size: MEDIA_SIZE.MEDIUM,
@@ -1360,7 +1358,6 @@ The premiere and continuous screening will take place throughout October at the 
         type: MEDIA_TYPE.TEXT,
         size: MEDIA_SIZE.MEDIUM,
         header: "No-input [ Live A/V 2022 ]",
-        externalLink: "youtube.com",
         texts: [
           {
             language: 'es',
@@ -1397,7 +1394,6 @@ The premiere and continuous screening will take place throughout October at the 
       {
         type: MEDIA_TYPE.TEXT,
         header: "Orfeo [ Live A/V 2023 ]",
-        // externalLink: "youtube",
         texts: [
           {
             language: 'es',
@@ -1433,7 +1429,6 @@ The premiere and continuous screening will take place throughout October at the 
       {
         type: MEDIA_TYPE.TEXT,
         header: "Audiovisual Body [Live A/V 2023]",
-        // externalLink: "youtube",
         texts: [
           {
             language: 'es',
