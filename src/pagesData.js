@@ -3,7 +3,7 @@ import { SECTION, MEDIA_TYPE, MEDIA_SIZE } from './models/project.enum.js';
 
 /*VARIABLE PARA CAMBIAR LA WEB A LA VERSIÓN DE CADA UNO*/
 /*JORGE = 0 ROSER = 1 */
-export const pageId = 0
+export const pageId = 1
 
 export const pagesData = [
   //----------------------------------------------------------------------------------------------------------------
@@ -247,7 +247,7 @@ Premiered in Short PAM!21” in La Filmoteca, Valencia`,
   //----------------------------------------------------------------------------------------------------------------
   // PROYECTO 4 (orden 3)
   //----------------------------------------------------------------------------------------------------------------
-  {
+ /* {
     id: 3,
     category: SECTION.PROYECTOSJORGE,
     navTitle: 'Materia eléctrica',
@@ -304,7 +304,7 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
       },
     ],
 
-  }, 
+  }, */
 
   {
     id: 3,
@@ -929,7 +929,7 @@ Performed by Jorge Dabaliña and Roser Domingo, at the Ferreres Goerlich room of
   //----------------------------------------------------------------------------------------------------------------
   // PROYECTO 13 (orden 14)
   //----------------------------------------------------------------------------------------------------------------
- {
+ /*{
     id: 14,
     category: SECTION.PROYECTOSJORGE,
     navTitle: 'Clock',
@@ -975,7 +975,7 @@ Piece created by Jorge Dabaliña and Roser Domingo. First prize in the «Premios
       },
 
     ],
-  },
+  },*/
 
   {
     id: 14,
