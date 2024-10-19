@@ -27,7 +27,7 @@ export const PAGE_TITTLE = {
 
 export const SOCIALMEDIA ={
   JORGE: 'https://www.instagram.com/jorge.rido/',
-  ROSER: '"https://www.instagram.com/roser.domingo/'
+  ROSER: 'https://www.instagram.com/roser.domingo/'
 }
 
 export const EMAIL ={

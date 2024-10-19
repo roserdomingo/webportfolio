@@ -1,7 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { Outlet } from 'react-router-dom';
+
+import React, { useState, useEffect} from 'react';
+import { Outlet} from 'react-router-dom';
 import Nav from './pure/nav';
 import NavMobile from './pure/navMobile';
+
+
 
 const Root = ({ data }) => {
 
@@ -38,6 +41,7 @@ const Root = ({ data }) => {
           </div>
         </div>
       )}
+     
     </div>
   );
 }

@@ -1,12 +1,17 @@
 import React from 'react';
 import DownloadButton from '../components/pure/downloadButton';
-
+import { Helmet } from 'react-helmet';
 const file = "http://localhost:3000/images/interferencia/interferencia_featured.jpg";
 const filetext = "Descargar CV";
 
 const BioRoser = () => {
   return (
+    
     <section className='container text-left px-0 overflow-hidden'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Roser Domingo</title>
+      </Helmet>
       
       <div className='about-header row align-items-center'>
         <h1>Bio & CV</h1>

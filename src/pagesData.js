@@ -394,7 +394,7 @@ This interactive audiovisual installation was exhibited and awarded at the «PAM
     },
     description: {
       header: null,
-      externalLink: null,
+      externalLink: "unopuntouno.xyz",
       texts: [
         {
           language: 'en',
