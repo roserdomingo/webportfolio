@@ -1,12 +1,16 @@
 import React from 'react';
 import DownloadButton from '../components/pure/downloadButton';
-
-const file = "http://localhost:3000/docs/CV Jorge Sánchez Dabaliña.pdf";
+import { Helmet } from 'react-helmet';
+const file = "http://www.jorgedabalina.com/docs/CV Jorge Sánchez Dabaliña.pdf";
 const filetext = "Download CV ";
 
 const BioJorge = () => {
   return (
     <section className='text-left px-0 overflow-hidden mw-50'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Jorge Dabaliña</title>
+      </Helmet>
 
       <div className='about-header row align-items-center'>
         <h1>Bio & CV</h1>

@@ -11,18 +11,23 @@ import BioRoser from './pages/bioRoser';
 import Project from './pages/project';
 import Error from './pages/error';
 
-// const location = useLocation();
+const Wrapper = ({ children }) => {
+  const location = useLocation();
 
-//   // scroll to top of page after a page transition.
-//   useLayoutEffect(() => {
-//     document.documentElement.scrollTo({ top:0, left:0, behavior: "instant" });
-//   }, [location.pathname]);
+  useLayoutEffect(() => {
+    // Scroll to the top of the page when the route changes
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [location.pathname]);
+
+  return children;
+};
 
 function Main() {
   
 
   return (
     <BrowserRouter>
+    <Wrapper>
       <Routes>
         <Route path="/" element={<Root />}>
           <Route index element={<Home />} />
@@ -38,7 +43,7 @@ function Main() {
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
-      
+      </Wrapper>
     </BrowserRouter>
     
   );
