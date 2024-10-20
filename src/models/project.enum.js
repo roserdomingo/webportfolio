@@ -32,7 +32,7 @@ export const SOCIALMEDIA ={
 
 export const EMAIL ={
   JORGE: 'mailto:jorgedabalina@gmail.com?Subject=Hola!',
-  ROSER: 'mailto:contacta.roser@gmail.com?Subject=Hola!'
+  ROSER: 'mailto:contacta.roser@gmail.com?Subject=¡Hola!'
 }
 
 export const BIO_PAGE = {

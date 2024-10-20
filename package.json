@@ -1,7 +1,7 @@
 {
   "name": "jorgedabalinayroserdomingo",
   "version": "0.0.2",
-  "homepage": "https://jorgedabalina.com",
+  "homepage": "https://roserdomingo.com",
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.23.9",

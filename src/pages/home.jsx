@@ -52,7 +52,7 @@ function Home() {
     [
       {
         src: '/images/home/homeSne.gif',
-        srcMobile: '/images/home/homeMobileSne.gif',
+        srcMobile: '/images/home/homeMobileSNE.gif',
         alt: '',
         text: "Sistema nervioso extendido #1 (Vista) (2023)",
         pathNav: '/projects/sne',
@@ -104,7 +104,7 @@ function Home() {
       },      
       {
         src: '/images/home/homeSne.gif',
-        srcMobile: '/images/home/homeMobileSne.gif',
+        srcMobile: '/images/home/homeMobileSNE.gif',
         alt: '',
         text: "Sistema nervioso extendido #1 (Vista) (2023)",
         pathNav: '/projects/sne',
