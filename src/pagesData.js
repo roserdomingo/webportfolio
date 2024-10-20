@@ -3,7 +3,7 @@ import { SECTION, MEDIA_TYPE, MEDIA_SIZE } from './models/project.enum.js';
 
 /*VARIABLE PARA CAMBIAR LA WEB A LA VERSIÓN DE CADA UNO*/
 /*JORGE = 0 ROSER = 1 */
-export const pageId = 0
+export const pageId = 1
 
 export const pagesData = [
   //----------------------------------------------------------------------------------------------------------------

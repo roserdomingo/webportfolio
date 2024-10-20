@@ -1,7 +1,7 @@
 import React from 'react';
 import DownloadButton from '../components/pure/downloadButton';
 import { Helmet } from 'react-helmet';
-const file = "http://localhost:3000/docs/CV Jorge Sánchez Dabaliña.pdf";
+const file = "http://www.jorgedabalina.com/docs/CV Jorge Sánchez Dabaliña.pdf";
 const filetext = "Download CV ";
 
 const BioJorge = () => {

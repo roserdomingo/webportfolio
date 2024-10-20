@@ -95,7 +95,7 @@ function Home() {
      
     ]:[
       {
-  
+        srcMobile: '/images/home/homeMobileEntrelazada.gif',
         src: '/images/home/homeEntrelazada.gif',
         alt: '',
         text: "Exploración entrelazada (2021)",

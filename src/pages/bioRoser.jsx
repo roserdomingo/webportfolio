@@ -1,8 +1,10 @@
 import React from 'react';
 import DownloadButton from '../components/pure/downloadButton';
 import { Helmet } from 'react-helmet';
-const file = "http://localhost:3000/images/interferencia/interferencia_featured.jpg";
-const filetext = "Descargar CV";
+const fileBio = "http://www.roserdomingo.com/docs/Roser Domingo Munoz biografia web.pdf";
+const fileCV = "http://www.roserdomingo.com/docs/Roser Domingo Munoz CV 2024 Web 2.pdf";
+const fileCVtext = "CV";
+const fileBiotext = "Bio";
 
 const BioRoser = () => {
   return (
@@ -18,10 +20,10 @@ const BioRoser = () => {
         
       </div>
 
-      <div className='about-body row align-items-center pt-4'>
+      <div className='about-body row pt-4 px-0 '>
 
         
-<div className='row' >
+<div className='row ' >
         <div className="bio col-sm-8">
         
           <ul className='list-group mb-4'>
@@ -31,12 +33,19 @@ const BioRoser = () => {
             
           </ul>
           
-          <ul  className='list-group mb-4'><li className='list-group-item px-4'><div><DownloadButton fileUrl={file} fileText={filetext}/> </div></li></ul>
+          <ul  className='list-group list-group-horizontal mb-4'>
+            <li className='list-group-item px-4'>
+              <div><DownloadButton fileUrl={fileBio} fileText={fileBiotext}/>
+              </div></li>
+          <li className='list-group-item px-4'>
+            <div><DownloadButton fileUrl={fileCV} fileText={fileCVtext}/>
+            </div></li>
+            </ul>
           
           
           
         </div>
-        <div className='col-sm-4'><img className='rounded img-fluid'  src='/images/bio/fotoRoser.webp' alt="Foto Roser Domingo" /></div>
+          <div className='col-sm-4 mb-4 px-0'><img className='rounded img-fluid aspect '  src='/images/bio/fotoRoser.webp' alt="Foto Roser Domingo" /></div>
         </div>
         
         <div className="experiencia">
