@@ -87,6 +87,7 @@ function Home() {
         pathNav: '/projects/intraseñales',
       },{
         src: '/images/home/homeManipulando.gif',
+        srcMobile: '/images/home/homeMobileManipulando.gif',
         alt: '',
         text: "Manipulando la luz (2024)",
         pathNav: '/projects/manipulandoLaLuz',
