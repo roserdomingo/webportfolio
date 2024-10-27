@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/static/media/bootstrap-icons.ba49e844.woff"
   },
   {
-    "revision": "163377c0b2dd0698a073a6c5c84d5ae9",
+    "revision": "2179230106a15ab70255ad05908e86c5",
     "url": "/index.html"
   }
 ];
