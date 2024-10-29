@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/static/js/2.bb8e1017.chunk.js"
   },
   {
-    "revision": "cc1e5eda776be5f0ff614285c31d4892",
-    "url": "/static/media/bootstrap-icons.cc1e5eda.woff2"
-  },
-  {
     "revision": "ba49e844892321d8540ea3b7c088cf97",
     "url": "/static/media/bootstrap-icons.ba49e844.woff"
+  },
+  {
+    "revision": "cc1e5eda776be5f0ff614285c31d4892",
+    "url": "/static/media/bootstrap-icons.cc1e5eda.woff2"
   },
   {
     "revision": "1bdbce7b71be67b5f16f26c2cd89be79",
